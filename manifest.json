@@ -1,5 +1,5 @@
 {
-  "id": "org.'user'.tmdbaddon", // 'user' is a placeholder, replace with your own
+  "id": "org.'user'.tmdbaddon", 
   "version": "1.0.0",
   "name": "TMDb Metadata Addon",
   "description": "Enhances Stremio metadata using TMDb",
