@@ -1,9 +1,9 @@
-const builder = new addonBuilder({
-  id: "org.'*user*'.tmdbaddon", // '*user*' is a placeholder—replace with your namespace
-  version: "1.0.0",
-  name: "TMDb Metadata Addon",
-  description: "Enhances Stremio with TMDb movie metadata",
-  types: ["movie"],
-  resources: ["meta"],
-  idPrefixes: ["tt"]
-}); 
+{
+  "id": "org.'user'.tmdbaddon", // 'user' is a placeholder, replace with your own
+  "version": "1.0.0",
+  "name": "TMDb Metadata Addon",
+  "description": "Enhances Stremio metadata using TMDb",
+  "types": ["movie"],
+  "resources": ["meta"],
+  "idPrefixes": ["tt"]
+}
