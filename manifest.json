@@ -1,9 +1,9 @@
-{
-  "id": "org.amie.tmdbaddon",
-  "version": "1.0.0",
-  "name": "TMDb Metadata Addon",
-  "description": "Enhances Stremio with TMDb movie metadata",
-  "resources": ["meta"],
-  "types": ["movie"],
-  "idPrefixes": ["tt"]
-}
+const builder = new addonBuilder({
+  id: "org.'*user*'.tmdbaddon", // '*user*' is a placeholder—replace with your namespace
+  version: "1.0.0",
+  name: "TMDb Metadata Addon",
+  description: "Enhances Stremio with TMDb movie metadata",
+  types: ["movie"],
+  resources: ["meta"],
+  idPrefixes: ["tt"]
+}); 
