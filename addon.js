@@ -4,7 +4,7 @@ const axios = require("axios");
 const API_KEY = "YOUR_TMDB_API_KEY"; // Replace with your actual TMDb key
 
 const builder = new addonBuilder({
-  id: "org.amie.tmdbaddon",
+  id: "org.user.tmdbaddon",
   version: "1.0.0",
   name: "TMDb Metadata Addon",
   description: "Enhances Stremio with TMDb movie metadata",
